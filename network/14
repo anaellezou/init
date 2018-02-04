@@ -1,0 +1,27 @@
+e2r13p11% dig 10.51.1.81
+
+; <<>> DiG 9.8.3-P1 <<>> 10.51.1.81
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 65523
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;10.51.1.81.			IN	A
+
+;; AUTHORITY SECTION:
+.			3598	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020400 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 10.51.1.42#53(10.51.1.42)
+;; WHEN: Sun Feb  4 15:31:53 2018
+;; MSG SIZE  rcvd: 103
+
+e2r13p11% nslookup 10.51.1.81
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+Non-authoritative answer:
+81.1.51.10.in-addr.arpa	name = ldap-proxy.42.fr.
+
+Authoritative answers can be found from:
