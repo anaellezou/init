@@ -1,0 +1,2 @@
+cron est un service permettant d'executer des taches a horaires regulieres.
+Il faut editer le fichier crontab en etant root pour ajouter des taches.
