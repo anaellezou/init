@@ -1,5 +1,1 @@
-#!/bin/bash
-
-sudo apt-get update > /var/log/update_script.log
-
-00 * * 7 /var/log/update_script.log 
+0 4 * * 1 apt-get update && apt-get dist-upgrade >> /var/log/update_script.log
